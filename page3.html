@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人格分类测试</title>
+    <link rel="stylesheet" href="../css/page3.css">
+</head>
+
+<body>
+    <!-- 最顶层导航栏 -->
+    <div class="header w">
+        <!-- logo部分 -->
+        <div class="logo">
+            <a href="javascript:document.location.reload(true);" target="_self"><img src="../img/logo.png"
+                    width="100px"></a>
+        </div>
+        <!-- 导航部分 -->
+        <div class="nav">
+            <ul>
+                <li><a href="#one">科普</a></li>
+                <li><a href="#two">心理测评</a></li>
+                <li><a href="#three">树洞</a></li>
+                <li><a href="#four">心理咨询</a></li>
+                <li><a href="../web/load1.html">登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="box">
+        <div class="gehe"></div>
+        <div class="content">
+            <div>
+                <form action="../admin/page4.html" method="post">
+                    1.认识你的人倾向形容你：<br>
+                    <label for="a1"><input type="radio" name="1" id="a1">热情和敏感</label><br>
+                    <label for="b1"><input type="radio" name="1" id="b1">逻辑和明确</label>
+                    <br><br>
+                    2.下列哪一件事听起来比较吸引你？<br>
+                    <label for="a2"><input type="radio" name="2" id="a2">到人多且社交频繁的地方</label><br>
+                    <label for="b2"><input type="radio" name="2" id="b2">宅家做一些特别的事情，例如观赏有趣的电影享用你喜欢的外卖</label>
+                    <br><br>
+                    3.你倾向通过以下哪种方式收集信息？<br>
+                    <label for="a3"><input type="radio" name="3" id="a3">对有可能发生的事的想象和期望</label><br>
+                    <label for="b3"><input type="radio" name="3" id="b3">你对目前状况的实际认识</label>
+                    <br><br>
+                    4.那种特质更像你？<br>
+                    <label for="a4"><input type="radio" name="4" id="a4">友善仁慈</label><br>
+                    <label for="b4"><input type="radio" name="4" id="b4">冷静理智</label>
+                    <br><br>
+                    5.看到悲情剧时：<br>
+                    <label for="a5"><input type="radio" name="5" id="a5">同情难过</label><br>
+                    <label for="b5"><input type="radio" name="5" id="b5">思考形成悲剧的本质原因</label>
+                    <br><br>
+                    6.当与朋友交往时，你倾向于看重：<br>
+                    <label for="a6"><input type="radio" name="6" id="a6">情感交流</label><br>
+                    <label for="b6"><input type="radio" name="6" id="b6">思维和精神层次交流</label>
+                    <br><br>
+                    7.你倾向拥有：<br>
+                    <label for="a7"><input type="radio" name="7" id="a7">很多认识的人和很多朋友</label><br>
+                    <label for="b7"><input type="radio" name="7" id="b7">少数能聊得来的朋友和一些认识的人</label>
+                    <br><br>
+                    8.过去你身边的人倾向对你说：<br>
+                    <label for="a8"><input type="radio" name="8" id="a8">你可以安静会吗？</label><br>
+                    <label for="b8"><input type="radio" name="8" id="b8">可以从你世界出来会吗？</label>
+                    <br><br>
+                    9.和知心好友畅谈时，你偏向谈论：<br>
+                    <label for="a9"><input type="radio" name="9" id="a9">未来，关于改进或发明事物和生活的种种可能性</label><br>
+                    <label for="b9"><input type="radio" name="9" id="b9">实际具体的，关于“此时此刻的事物”</label>
+                    <br><br>
+                    10.你倾向相信：<br>
+                    <label for="a10"><input type="radio" name="10" id="a10">你的直觉</label><br>
+                    <label for="b10"><input type="radio" name="10" id="b10">你直接的观察或现成的经验</label>
+                    <br><br>
+                    11.在约会中，你通常：<br>
+                    <label for="a11"><input type="radio" name="11" id="a11">整体来说很健谈</label><br>
+                    <label for="b11"><input type="radio" name="11" id="b11">较安静并保留，直到你觉得舒服</label>
+                    <br><br>
+                    12.对于迟到：<br>
+                    <label for="a12"><input type="radio" name="12" id="a12">若你所约的人来迟了，你会很不高兴</label><br>
+                    <label for="b12"><input type="radio" name="12" id="b12">一点儿都不在乎，因为你自己常常迟到</label>
+                    <br><br>
+                    13.你更喜欢：<br>
+                    <label for="a13"><input type="radio" name="13" id="a13">创作和突破的成就感</label><br>
+                    <label for="b13"><input type="radio" name="13" id="b13">稳健踏实的幸福感</label>
+                    <br><br>
+                    14.你是这种人：<br>
+                    <label for="a14"><input type="radio" name="14" id="a14">喜欢先纵观全局</label><br>
+                    <label for="b14"><input type="radio" name="14" id="b14">喜欢先掌握细节</label>
+                    <br><br>
+                    15.生活中，你大部分活动轨迹是：<br>
+                    <label for="a15"><input type="radio" name="15" id="a15">聚会，酒吧，聚餐，人多热闹的地方</label><br>
+                    <label for="b15"><input type="radio" name="15" id="b15">家里，自习室，宿舍和图书馆</label>
+                    <br><br>
+                    16.你是这类型的人：<br>
+                    <label for="a16"><input type="radio" name="16" id="a16">与其活在现实中，不如活在想像里</label><br>
+                    <label for="b16"><input type="radio" name="16" id="b16">与其活在想像里，不如活在现实中</label>
+                    <br><br>
+                    17.哪一项较常见：<br>
+                    <label for="a17"><input type="radio" name="17" id="a17">你准时出席而其他人都迟到</label><br>
+                    <label for="b17"><input type="radio" name="17" id="b17">其他人都准时出席而你迟到</label>
+                    <br><br>
+                    18.你偏好：<br>
+                    <label for="a18"><input type="radio" name="18" id="a18">有备无患</label><br>
+                    <label for="b18"><input type="radio" name="18" id="b18">顺其自然，临场发挥</label>
+                    <br><br>
+                    19.你是此类型的人：<br>
+                    <label for="a19"><input type="radio" name="19" id="a19">喜欢在一段时间里专心于一件事情直到完成</label><br>
+                    <label for="b19"><input type="radio" name="19" id="b19">享受同时进行好几件事情</label>
+                    <br><br>
+                    20.你倾向如此做决定：<br>
+                    <label for="a20"><input type="radio" name="20" id="a20">首先依你的心意，然后依你的逻辑</label><br>
+                    <label for="b20"><input type="radio" name="20" id="b20">首先依你的逻辑，然后依你的心意</label>
+                    <br><br>
+                    21.你倾向从何处得到力量：<br>
+                    <label for="a21"><input type="radio" name="21" id="a21">朋友</label><br>
+                    <label for="b21"><input type="radio" name="21" id="b21">自己的想法</label>
+                    <br><br>
+                    22.你通常：<br>
+                    <label for="a22"><input type="radio" name="22" id="a22">偏向于去想像一大堆关于即将来临的约会的事情</label><br>
+                    <label for="b22"><input type="radio" name="22" id="b22">偏向于拘谨地想像即将来临的约会，只期待让它自然地发生</label>
+                    <br><br>
+                    23.当你参加一个社交聚会时，你会：<br>
+                    <label for="a23"><input type="radio" name="23" id="a23">在夜色很深时，一旦你开始投入，也许就是最晚离开的那一个</label><br>
+                    <label for="b23"><input type="radio" name="23" id="b23">在夜晚刚开始的时候，我就疲惫了并且想回家</label>
+                    <br><br>
+                    24.当你不同意朋友的想法时：<br>
+                    <label for="a24"><input type="radio" name="24"
+                            id="a24">你尽可能地避免伤害对方的感情；若是会对对方造成伤害的话，你就不会说</label><br>
+                    <label for="b24"><input type="radio" name="24" id="b24">你通常毫无保留地说话，并且对朋友直言不讳，因为对的就是对的</label>
+                    <br><br>
+                    25.你倾向比较能够观察到：<br>
+                    <label for="a25"><input type="radio" name="25" id="a25">当人们需要情感上的支持时</label><br>
+                    <label for="b25"><input type="radio" name="25" id="b25">当人们不合逻辑时</label>
+                    <br><br>
+                    26. 若你有时间和金钱，你的朋友邀请你到国外度假，并且在前一天才通知，你会：<br>
+                    <label for="a26"><input type="radio" name="26" id="a26">必须先检查你的时间表</label><br>
+                    <label for="b26"><input type="radio" name="26" id="b26">立刻收拾行装</label>
+                    <br><br>
+                    27.你选择的生活充满着：<br>
+                    <label for="a27"><input type="radio" name="27" id="a27">日程表和组织</label><br>
+                    <label for="b27"><input type="radio" name="27" id="b27">自然发生和弹性</label>
+                    <br><br>
+                    28.你更像哪种人：<br>
+                    <label for="a28"><input type="radio" name="28" id="a28">果断做出决定的人</label><br>
+                    <label for="b28"><input type="radio" name="28" id="b28">有轻微选择困难症的人</label>
+                    <br><br>
+                    29.你的性别：<br>
+                    <label for="a29"><input type="radio" name="29" id="a29">Male</label><br>
+                    <label for="b29"><input type="radio" name="29" id="b29">Female</label>
+                    <br><br>
+                    30.出生年代：<br>
+                    <label for="a30"><input type="radio" name="30" id="a30">00后</label><br>
+                    <label for="b30"><input type="radio" name="30" id="b30">95后</label><br>
+                    <label for="c30"><input type="radio" name="30" id="c30">90后</label><br>
+                    <label for="d30"><input type="radio" name="30" id="d30">85后</label><br>
+                    <label for="e30"><input type="radio" name="30" id="e30">80后</label><br>
+                    <label for="f30"><input type="radio" name="30" id="f30">75后</label>
+                    <br><br>
+                    <input type="submit" class="five1">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="gehe"></div>
+    <!-- 底部 心理咨询 -->
+    <div class="bottom" id="four">
+        <!-- 专家二维码 -->
+        <div class="bottom_top">
+            <img src="../img/bottom_tb.png" width="60px">
+            <h2>扫描微信咨询</h2>
+            <div class="wechat">
+                <img src="../img/bottom_stj.jpg" width="100px">
+                <img src="../img/bottom_ff.jpg" width="100px">
+            </div>
+        </div>
+        <!-- 关于 -->
+        <div class="bottom_bottom">
+            <h4>联系地址：</h4>
+            <span>辽宁中医药大学1322寝</span>
+        </div>
+    </div>
+</body>
+
+</html>

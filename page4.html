@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>验证你的MBTI类型</title>
+    <link rel="stylesheet" href="../css/page4.css">
+</head>
+
+<body>
+    <!-- 最顶层导航栏 -->
+    <div class="header w">
+        <!-- logo部分 -->
+        <div class="logo">
+            <a href="javascript:document.location.reload(true);" target="_self"><img src="../img/logo.png"
+                    width="100px"></a>
+        </div>
+        <!-- 导航部分 -->
+        <div class="nav">
+            <ul>
+                <li><a href="#one">科普</a></li>
+                <li><a href="#two">心理测评</a></li>
+                <li><a href="#three">树洞</a></li>
+                <li><a href="#four">心理咨询</a></li>
+                <li><a href="../web/load1.html">登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="box">
+        <div class="gehe"></div>
+        <div class="content">
+            <div>
+                <form action="../admin/page4.html" method="post">
+                    Part one:形容<br><br>
+                    1.别人多数用这样的词来形容你<br>
+                    <label for="a1"><input type="radio" name="1" id="a1">热情</label><br>
+                    <label for="b1"><input type="radio" name="1" id="b1">安静</label>
+                    <br><br>
+                    2.在朋友和家人眼中，你是<br>
+                    <label for="a2"><input type="radio" name="2" id="a2">含蓄内向</label><br>
+                    <label for="b2"><input type="radio" name="2" id="b2">热情健谈</label>
+                    <br><br>
+                    3.你觉得自己是一个<br>
+                    <label for="a3"><input type="radio" name="3" id="a3">感性</label><br>
+                    <label for="b3"><input type="radio" name="3" id="b3">理性</label>
+                    <br><br>
+                    4.在说服人的时候，你一般选择<br>
+                    <label for="a4"><input type="radio" name="4" id="a4">以道理</label><br>
+                    <label for="b4"><input type="radio" name="4" id="b4">以感情</label>
+                    <br><br>
+                    5.哪一个更符合你的兴趣<br>
+                    <label for="a5"><input type="radio" name="5" id="a5">实操</label><br>
+                    <label for="b5"><input type="radio" name="5" id="b5">创意</label>
+                    <br><br>
+                    6.你更喜欢哪种交流方式<br>
+                    <label for="a6"><input type="radio" name="6" id="a6">说话</label><br>
+                    <label for="b6"><input type="radio" name="6" id="b6">书写</label>
+                    <br><br>
+                    7.你认为自己更倾向于<br>
+                    <label for="a7"><input type="radio" name="7" id="a7">注重理论</label><br>
+                    <label for="b7"><input type="radio" name="7" id="b7">注重现实依据</label>
+                    <br><br>
+                    8.在他们眼中，你是一个<br>
+                    <label for="a8"><input type="radio" name="8" id="a8">意志坚定，不易被说服</label><br>
+                    <label for="b8"><input type="radio" name="8" id="b8">心肠软</label>
+                    <br><br>
+                    9.哪一个词更符合对你的描述<br>
+                    <label for="a9"><input type="radio" name="9" id="a9">严格</label><br>
+                    <label for="b9"><input type="radio" name="9" id="b9">宽容</label>
+                    <br><br>
+                    10.你认为用哪个词形容你更合适<br>
+                    <label for="a10"><input type="radio" name="10" id="a10">坦率</label><br>
+                    <label for="b10"><input type="radio" name="10" id="b10">圆通</label>
+                    <br><br>
+                    11.你更符合以下哪个选项<br>
+                    <label for="a11"><input type="radio" name="11" id="a11">思想</label><br>
+                    <label for="b11"><input type="radio" name="11" id="b11">感觉</label>
+                    <br><br>
+                    12.哪一个词更符合对你的描述<br>
+                    <label for="a12"><input type="radio" name="12" id="a12">坚持己见</label><br>
+                    <label for="b12"><input type="radio" name="12" id="b12">温暖有爱心</label>
+                    <br><br>
+                    13.在别人眼中对你的评价更倾向于<br>
+                    <label for="a13"><input type="radio" name="13" id="a13">公平、公正</label><br>
+                    <label for="b13"><input type="radio" name="13" id="b13">有爱心、注重和睦</label>
+                    <br><br>
+                    14.在闲暇时间，你更喜欢<br>
+                    <label for="a14"><input type="radio" name="14" id="a14">安静独处</label><br>
+                    <label for="b14"><input type="radio" name="14" id="b14">爱社交</label>
+                    <br><br>
+                    15.在工作和生活中，你更倾向<br>
+                    <label for="a15"><input type="radio" name="15" id="a15">随心自在</label><br>
+                    <label for="b15"><input type="radio" name="15" id="b15">有条理、有计划</label>
+                    <br><br>
+                    16.你更喜欢<br>
+                    <label for="a16"><input type="radio" name="16" id="a16">按计划行事</label><br>
+                    <label for="b16"><input type="radio" name="16" id="b16">顺其自然</label>
+                    <br><br>
+                    17.你更符合以下哪个选项<br>
+                    <label for="a17"><input type="radio" name="17" id="a17">思考</label><br>
+                    <label for="b17"><input type="radio" name="17" id="b17">感受</label>
+                    <br><br>
+                    18.哪一个更符合对你的描述<br>
+                    <label for="a18"><input type="radio" name="18" id="a18">热情体谅</label><br>
+                    <label for="b18"><input type="radio" name="18" id="b18">冷静理性</label>
+                    <br><br>
+                    19.哪一个更符合对你的描述<br>
+                    <label for="a19"><input type="radio" name="19" id="a19">内向</label><br>
+                    <label for="b19"><input type="radio" name="19" id="b19">外向</label>
+                    <br><br>
+                    20.哪一个更符合对你的描述<br>
+                    <label for="a20"><input type="radio" name="20" id="a20">富有同理心、同情心</label><br>
+                    <label for="b20"><input type="radio" name="20" id="b20">公平公正</label>
+                    <br><br>
+                    21.在社交场合里，更多时候你是<br>
+                    <label for="a21"><input type="radio" name="21" id="a21">矜持</label><br>
+                    <label for="b21"><input type="radio" name="21" id="b21">健谈</label>
+                    <br><br>
+                    22.在处理一项任务的时候，大多时候你是<br>
+                    <label for="a22"><input type="radio" name="22" id="a22">有条不紊</label><br>
+                    <label for="b22"><input type="radio" name="22" id="b22">思维跳脱</label>
+                    <br><br>
+                    23.哪一个更符合对你的描述<br>
+                    <label for="a23"><input type="radio" name="23" id="a23">朋友不多</label><br>
+                    <label for="b23"><input type="radio" name="23" id="b23">朋友众多</label>
+                    <br><br>
+                    24.哪一个更符合你的兴趣<br>
+                    <label for="a24"><input type="radio" name="24" id="a24">建造</label><br>
+                    <label for="b24"><input type="radio" name="24" id="b24">发明</label>
+                    <br><br>
+                    25.你觉得自己是<br>
+                    <label for="a25"><input type="radio" name="25" id="a25">文静</label><br>
+                    <label for="b25"><input type="radio" name="25" id="b25">活泼</label>
+                    <br><br>
+                    26. 在做决定的时候，你会被什么影响<br>
+                    <label for="a26"><input type="radio" name="26" id="a26">同情怜悯</label><br>
+                    <label for="b26"><input type="radio" name="26" id="b26">逻辑法则</label>
+                    <br><br>
+                    27.哪一个更符合对你的描述<br>
+                    <label for="a27"><input type="radio" name="27" id="a27">仁慈慷慨的</label><br>
+                    <label for="b27"><input type="radio" name="27" id="b27">意志坚定的</label>
+                    <br><br>
+                    28.你对周围人是<br>
+                    <label for="a28"><input type="radio" name="28" id="a28">一视同仁</label><br>
+                    <label for="b28"><input type="radio" name="28" id="b28">体恤照顾</label>
+                    <br><br>
+                    29.哪一个更符合你的兴趣<br>
+                    <label for="a29"><input type="radio" name="29" id="a29">制作</label><br>
+                    <label for="b29"><input type="radio" name="29" id="b29">设计</label>
+                    <br><br>
+                    30.在做出决策的时候，你是<br>
+                    <label for="a30"><input type="radio" name="30" id="a30">坚持己见</label><br>
+                    <label for="b30"><input type="radio" name="30" id="b30">心肠软</label>
+                    <br><br>
+                    31.你更符合以下哪个选项<br>
+                    <label for="a31"><input type="radio" name="31" id="a31">全心投入</label><br>
+                    <label for="b31"><input type="radio" name="31" id="b31">有决心的</label>
+                    <br><br>
+                    32.你更符合以下哪个选项<br>
+                    <label for="a32"><input type="radio" name="32" id="a32">竞争性</label><br>
+                    <label for="b32"><input type="radio" name="32" id="b32">好心肠</label>
+                    <br><br>
+                    Part two:情景<br><br>
+                    1.你更注重<br>
+                    <label for="a1"><input type="radio" name="1" id="a1">感情</label><br>
+                    <label for="b1"><input type="radio" name="1" id="b1">权利</label>
+                    <br><br>
+                    2.在日常工作中，你会<br>
+                    <label for="a2"><input type="radio" name="2" id="a2">更喜欢处理迫使你分秒必争的工作</label><br>
+                    <label for="b2"><input type="radio" name="2" id="b2">一般都会做好计划，避免在压力下工作</label>
+                    <br><br>
+                    3.你认为按照计划、日程表行事是<br>
+                    <label for="a3"><input type="radio" name="3" id="a3">很适合自己，按计划完成任务会让我感到自在</label><br>
+                    <label for="b3"><input type="radio" name="3" id="b3">即使有必要，我也不喜欢</label>
+                    <br><br>
+                    4.你更喜欢的交友方式是<br>
+                    <label for="a4"><input type="radio" name="4" id="a4">只有和你志趣相投的人，才能走进你的内心</label><br>
+                    <label for="b4"><input type="radio" name="4" id="b4">不管是谁都能聊得很好，只要你愿意</label>
+                    <br><br>
+                    5.在参加聚会的时候，你通常是<br>
+                    <label for="a5"><input type="radio" name="5" id="a5">帮助组织活动</label><br>
+                    <label for="b5"><input type="radio" name="5" id="b5">让其他人按照各自的方式取乐帮助组织活动</label>
+                    <br><br>
+                    6.你周围那些比较亲近的人，他们一般<br>
+                    <label for="a6"><input type="radio" name="6" id="a6">了解你的兴趣、对大多事情的感受</label><br>
+                    <label for="b6"><input type="radio" name="6" id="b6">只有你主动、特别愿意告知的情况下，他们才会知道你的感受</label>
+                    <br><br>
+                    7.去做某件事的时候，你更习惯于<br>
+                    <label for="a7"><input type="radio" name="7" id="a7">自己想出一种新的方法</label><br>
+                    <label for="b7"><input type="radio" name="7" id="b7">循规蹈矩，按照常规方法去做</label>
+                    <br><br>
+                    8.你更倾向于<br>
+                    <label for="a8"><input type="radio" name="8" id="a8">只愿意向极个别人倾诉内心的秘密或不向任何人倾诉</label><br>
+                    <label for="b8"><input type="radio" name="8" id="b8">有很多知心朋友</label>
+                    <br><br>
+                    9.在家人同事眼中的你更偏向于<br>
+                    <label for="a9"><input type="radio" name="9" id="a9">拖拉</label><br>
+                    <label for="b9"><input type="radio" name="9" id="b9">急躁</label>
+                    <br><br>
+                    10.你认为按常规做事是一种<br>
+                    <label for="a10"><input type="radio" name="10" id="a10">能预防错误的理想方法</label><br>
+                    <label for="b10"><input type="radio" name="10" id="b10">还不如犯错误</label>
+                    <br><br>
+                    11.完成一项任务，你更享受<br>
+                    <label for="a11"><input type="radio" name="11" id="a11">在截止日期之前完成一项任务中获得真正的满足感</label><br>
+                    <label for="b11"><input type="radio" name="11" id="b11">在截止期之前最后一刻获得的速度和效率</label>
+                    <br><br>
+                    12.周末要外出游玩的时候，你会<br>
+                    <label for="a12"><input type="radio" name="12" id="a12">做好计划</label><br>
+                    <label for="b12"><input type="radio" name="12" id="b12">随心而欲，说走就走</label>
+                    <br><br>
+                    13.你觉得自己是个<br>
+                    <label for="a13"><input type="radio" name="13" id="a13">较为随性的人</label><br>
+                    <label for="b13"><input type="radio" name="13" id="b13">较有计划性的人</label>
+                    <br><br>
+                    14.在社交活动中，通常情况是<br>
+                    <label for="a14"><input type="radio" name="14" id="a14">你介绍大家认识</label><br>
+                    <label for="b14"><input type="radio" name="14" id="b14">别人介绍你</label>
+                    <br><br>
+                    15.在一个新环境中，你一般<br>
+                    <label for="a15"><input type="radio" name="15" id="a15">很容易就和他们混熟</label><br>
+                    <label for="b15"><input type="radio" name="15" id="b15">比较沉着矜持</label>
+                    <br><br>
+                    16.你是否经常会<br>
+                    <label for="a16"><input type="radio" name="16" id="a16">你的情感支配你的理智</label><br>
+                    <label for="b16"><input type="radio" name="16" id="b16">你的理智主宰你的情感</label>
+                    <br><br>
+                    17.处理许多生活中的事情上，你更喜欢<br>
+                    <label for="a17"><input type="radio" name="17" id="a17">凭兴之所至行事</label><br>
+                    <label for="b17"><input type="radio" name="17" id="b17">按照计划表</label>
+                    <br><br>
+                    18.在周围人的眼里，你是<br>
+                    <label for="a18"><input type="radio" name="18" id="a18">坦率外向</label><br>
+                    <label for="b18"><input type="radio" name="18" id="b18">注重隐私</label>
+                    <br><br>
+                    19.当要外出旅行或游玩的时候，你通常是<br>
+                    <label for="a19"><input type="radio" name="19" id="a19">跟着感觉走，到了地方再看</label><br>
+                    <label for="b19"><input type="radio" name="19" id="b19">会事先做好计划，安排好每一步</label>
+                    <br><br>
+                    20.做一件大多数都做的事，你更喜欢<br>
+                    <label for="a20"><input type="radio" name="20" id="a20">按照常规方法</label><br>
+                    <label for="b20"><input type="radio" name="20" id="b20">构想一个自己的方法</label>
+                    <br><br>
+                    21.你通常更喜欢选择这样的课程<br>
+                    <label for="a21"><input type="radio" name="21" id="a21">讲授原理和理论较多的课</label><br>
+                    <label for="b21"><input type="radio" name="21" id="b21">讲授事实和数据较多、具有应用性的课</label>
+                    <br><br>
+                    22.当你和一群人在一起的时候，你通常是<br>
+                    <label for="a22"><input type="radio" name="22" id="a22">只跟你熟悉的个别人谈话</label><br>
+                    <label for="b22"><input type="radio" name="22" id="b22">能够自然而然地参与到大家的谈话中</label>
+                    <br><br>
+                    23.在社交活动中，你一般是<br>
+                    <label for="a23"><input type="radio" name="23" id="a23">很健谈，不会让场子冷下来</label><br>
+                    <label for="b23"><input type="radio" name="23" id="b23">更喜欢听别人说</label>
+                    <br><br>
+                    24.把假期要完成的事做成计划表，是一件<br>
+                    <label for="a24"><input type="radio" name="24" id="a24">合你心意的事</label><br>
+                    <label for="b24"><input type="radio" name="24" id="b24">很无趣，让你提不起劲</label>
+                    <br><br>
+                    25.看自己喜欢的书时，你更喜欢<br>
+                    <label for="a25"><input type="radio" name="25" id="a25">作者奇特或创新的表达方式</label><br>
+                    <label for="b25"><input type="radio" name="25" id="b25">作者清晰明了的方式</label>
+                    <br><br>
+                    26. 你更喜欢哪一种上司/老师<br>
+                    <label for="a26"><input type="radio" name="26" id="a26">性格宽厚温和，但常常前后不一</label><br>
+                    <label for="b26"><input type="radio" name="26" id="b26">严厉尖锐，但是会讲理</label>
+                    <br><br>
+                    27.在工作中，你更倾向于<br>
+                    <label for="a27"><input type="radio" name="27" id="a27">按照当天的情况做</label><br>
+                    <label for="b27"><input type="radio" name="27" id="b27">按照计划表去做事</label>
+                    <br><br>
+                    28.在做决定的时候，你会更考虑<br>
+                    <label for="a28"><input type="radio" name="28" id="a28">事实、客观因素</label><br>
+                    <label for="b28"><input type="radio" name="28" id="b28">别人的感受和意见</label>
+                    <br><br>
+                    29.社交活动对你来说<br>
+                    <label for="a29"><input type="radio" name="29" id="a29">能让你感到精力充沛</label><br>
+                    <label for="b29"><input type="radio" name="29" id="b29">常常令你心力交瘁</label>
+                    <br><br>
+                    30.你更喜欢<br>
+                    <label for="a30"><input type="radio" name="30" id="a30">按现有的、有效的方法做事</label><br>
+                    <label for="b30"><input type="radio" name="30" id="b30">分析依然存在的错误，并处理尚未解决的问题</label>
+                    <br><br>
+                    31.你认为哪种情况更重要<br>
+                    <label for="a31"><input type="radio" name="31" id="a31">能够看到某种情况中的可能性</label><br>
+                    <label for="b31"><input type="radio" name="31" id="b31">能够根据实际情况进行调整</label>
+                    <br><br>
+                    32.你通常倾向于<br>
+                    <label for="a32"><input type="radio" name="32" id="a32">一个有效的方法用在不同的地方</label><br>
+                    <label for="b32"><input type="radio" name="32" id="b32">在一个地方尝试不同的方法</label>
+                    <br><br>
+                    33.我很少出于好心帮助别人。<br>
+                    <label for="a33"><input type="radio" name="33" id="a33">是的</label><br>
+                    <label for="b33"><input type="radio" name="33" id="b33">不是</label>
+                    <br><br>
+                    34.大部分人都觉得我比较高冷。<br>
+                    <label for="a34"><input type="radio" name="34" id="a34">是的</label><br>
+                    <label for="b34"><input type="radio" name="34" id="b34">不是</label>
+                    <br><br>
+                    35.大部分人觉得我是一个亲和而温暖的人。<br>
+                    <label for="a35"><input type="radio" name="35" id="a35">是的</label><br>
+                    <label for="b35"><input type="radio" name="35" id="b35">不是</label>
+                    <br><br>
+                    36.待人方面我总是习惯性的冷漠。<br>
+                    <label for="a36"><input type="radio" name="36" id="a36">是的</label><br>
+                    <label for="b36"><input type="radio" name="36" id="b36">不是</label>
+                    <br><br>
+                    Part three:佐证<br><br>
+                    1.哪边更像你？<br>
+                    a.着眼于现实，关注事实本身/喜欢用足够的事实推动事情发展/善于把握细节，精确描述事物特点<br>
+                    b.着眼于未来，留意事物的变化趋势/喜欢头脑风暴推动事情发展/善于触发新想法，有时候会忽略细节<br>
+                    <label for="a1"><input type="radio" name="1" id="a1">非常像a</label><br>
+                    <label for="b1"><input type="radio" name="1" id="b1">比较像a</label><br>
+                    <label for="c1"><input type="radio" name="1" id="c1">比较像b</label><br>
+                    <label for="d1"><input type="radio" name="1" id="d1">非常像b</label>
+                    <br><br>
+                    2.哪边更像你？<br>
+                    a.重视现实性/富有常识，且善于寻求常识性的解决方案/活在当下，偏好直接经验和可量化的结果<br>
+                    b.重视可能性和独创性/善于构想新的产品、模型理论，而后补充事实依据/面向未来，对于未来需要什么洞察力很强<br>
+                    <label for="a2"><input type="radio" name="2" id="a2">非常像a</label><br>
+                    <label for="b2"><input type="radio" name="2" id="b2">比较像a</label><br>
+                    <label for="c2"><input type="radio" name="2" id="c2">比较像b</label><br>
+                    <label for="d2"><input type="radio" name="2" id="d2">非常像b</label>
+                    <br><br>
+                    3.哪边更像你？<br>
+                    a.对了解事物底层的概念比事物本身更有兴趣/更聚焦于想法本身,而不是具体应用上/重视通过智力和理论探讨产生的无形成果<br>
+                    b.关注实体，对概念和理论兴趣不大/当具体应用明确时,能够接受新想法/重视通过实际努力产生的有形成果<br>
+                    <label for="a3"><input type="radio" name="3" id="a3">非常像a</label><br>
+                    <label for="b3"><input type="radio" name="3" id="b3">比较像a</label><br>
+                    <label for="c3"><input type="radio" name="3" id="c3">比较像b</label><br>
+                    <label for="d3"><input type="radio" name="3" id="d3">非常像b</label>
+                    <br><br>
+                    4.哪边更像你？<br>
+                    a.倾向于用抽象的理论和原则来理解这个世界/基于设立理论框架的学习效果更好/崇尚理论，并相信这些理论都有现实基础<br>
+                    b.倾向于用经验解决身边的问题/基于亲身实践的学习效果更好/崇尚经验，需要尝试过新事物才能相信它确实有用<br>
+                    <label for="a4"><input type="radio" name="4" id="a4">非常像a</label><br>
+                    <label for="b4"><input type="radio" name="4" id="b4">比较像a</label><br>
+                    <label for="c4"><input type="radio" name="4" id="c4">比较像b</label><br>
+                    <label for="d4"><input type="radio" name="4" id="d4">非常像b</label>
+                    <br><br>
+                    5.哪边更像你？<br>
+                    a.乐于遵循已经建立的方法和制度/依据合适的社会准则行事，而不想显得另类/认为历史悠久的传统让自己感到踏实和融入<br>
+                    b.通过原创性寻求自我表达和自我认可/希望表现得与众不同，而从人群中脱颖而出/认为原创性会给生活增色，也是解决停滞的好方法<br>
+                    <label for="a5"><input type="radio" name="5" id="a5">非常像a</label><br>
+                    <label for="b5"><input type="radio" name="5" id="b5">比较像a</label><br>
+                    <label for="c5"><input type="radio" name="5" id="c5">比较像b</label><br>
+                    <label for="d5"><input type="radio" name="5" id="d5">非常像b</label>
+                    <br><br>
+                    6.哪边更像你？<br>
+                    a.更多用脑思考/聚焦于诱因与效应，寻求客观原则与利弊/相信做决定最好的方法是“遵循客观的逻辑分析”<br>
+                    b.更多用心思考/聚焦于人的影响，以同理心去了解他人的需求/相信做决定最好的方法是“遵循内心的判断和评价”<br>
+                    <label for="a6"><input type="radio" name="6" id="a6">非常像a</label><br>
+                    <label for="b6"><input type="radio" name="6" id="b6">比较像a</label><br>
+                    <label for="c6"><input type="radio" name="6" id="c6">比较像b</label><br>
+                    <label for="d6"><input type="radio" name="6" id="d6">非常像b</label>
+                    <br><br>
+                    7.哪边更像你？<br>
+                    a.认为有效的表达关心，是提供解决问题的方法/在做决定的时候，更多的会考虑到客观因素/认为一视同仁才是真正的公平<br>
+                    b.认为有效的表达关心，是倾听和安慰/做决定的时候，会更考虑到他人感受和意见/懂得根据人情因素变通<br>
+                    <label for="a7"><input type="radio" name="7" id="a7">非常像a</label><br>
+                    <label for="b7"><input type="radio" name="7" id="b7">比较像a</label><br>
+                    <label for="c7"><input type="radio" name="7" id="c7">比较像b</label><br>
+                    <label for="d7"><input type="radio" name="7" id="d7">非常像b</label>
+                    <br><br>
+                    8.哪边更像你？<br>
+                    a.用温和、理解的方式来弄清问题/重视他人感受，如果提出来会冒犯或伤害他人，你会回避这个问题/注重和睦，认为维护人际关系很重要<br>
+                    b.用发问、质疑的方式来弄清问题/认为坦率比圆滑重要，即使是自己上司有问题，你也会直言不讳地指出/重视客观事实多于感情<br>
+                    <label for="a8"><input type="radio" name="8" id="a8">非常像a</label><br>
+                    <label for="b8"><input type="radio" name="8" id="b8">比较像a</label><br>
+                    <label for="c8"><input type="radio" name="8" id="c8">比较像b</label><br>
+                    <label for="d8"><input type="radio" name="8" id="d8">非常像b</label>
+                    <br><br>
+                    9.哪边更像你？<br>
+                    a.会自然地看到缺点/认为“批评”对于帮助他人进步是必要的/认同“凡事都有提高的空间”，倾向于指出不对之处并论证<br>
+                    b.惯于迎合、肯定他人观点/接纳他人并帮助他人进步/认同“双赢的局面会经常出现”，倾向于表扬、原谅、对他人友善<br>
+                    <label for="a9"><input type="radio" name="9" id="a9">非常像a</label><br>
+                    <label for="b9"><input type="radio" name="9" id="b9">比较像a</label><br>
+                    <label for="c9"><input type="radio" name="9" id="c9">比较像b</label><br>
+                    <label for="d9"><input type="radio" name="9" id="d9">非常像b</label>
+                    <br><br>
+                    10.哪边更像你？<br>
+                    a.给予他人关怀和温暖，也希望他人如此/认为决定做出后，也应充分照顾受到决定不利影响的人/过程导向，充分给予他人质疑的权利<br>
+                    b.清晰直白地表达自己，也希望他人如此/认为决定一旦作出就刻不容缓，应当尽快实施/结果导向，关注下限和底线<br>
+                    <label for="a10"><input type="radio" name="10" id="a10">非常像a</label><br>
+                    <label for="b10"><input type="radio" name="10" id="b10">比较像a</label><br>
+                    <label for="c10"><input type="radio" name="10" id="c10">比较像b</label><br>
+                    <label for="d10"><input type="radio" name="10" id="d10">非常像b</label>
+                    <br><br>
+                    11.哪边更像你？<br>
+                    a.喜欢灵活随性的生活方式/认为多样性和随机性很有吸引力/被打断后能较快适应<br>
+                    b.喜欢系统化地专注于任务，有效利用时间和精力/想要组织和掌控自己的时间和空间/被打断会感到很不适应<br>
+                    <label for="a11"><input type="radio" name="11" id="a11">非常像a</label><br>
+                    <label for="b11"><input type="radio" name="11" id="b11">比较像a</label><br>
+                    <label for="c11"><input type="radio" name="11" id="c11">比较像b</label><br>
+                    <label for="d11"><input type="radio" name="11" id="d11">非常像b</label>
+                    <br><br>
+                    12.哪边更像你？<br>
+                    a.在生活中倾向于基于当前的情况做安排/在行动中善于发挥意外机会的作用/认为计划，尤其长期计划是过于限制的，希望拥有选择的自由<br>
+                    b.在生活中倾向于做长远、全面的计划/在行动中如果没有具体计划会感到不适/享受计划的过程本身，提前做短期和长期的各项计划<br>
+                    <label for="a12"><input type="radio" name="12" id="a12">非常像a</label><br>
+                    <label for="b12"><input type="radio" name="12" id="b12">比较像a</label><br>
+                    <label for="c12"><input type="radio" name="12" id="c12">比较像b</label><br>
+                    <label for="d12"><input type="radio" name="12" id="d12">非常像b</label>
+                    <br><br>
+                    13.哪边更像你？<br>
+                    a.在时间限制下才能更好地完成工作/在正式开始前，更多地收集信息，认为太早完成是一种时间浪费/在临近截止日的压力状态下，会迸发出最有创造力的自己<br>
+                    b.按照计划有条不紊的进行，才能更好地完成工作/习惯提前开始任务，以留出充裕的时间完成和检查/合理安排自己的节奏，这样便可以不用赶在截止日的最后时间冲刺<br>
+                    <label for="a13"><input type="radio" name="13" id="a13">非常像a</label><br>
+                    <label for="b13"><input type="radio" name="13" id="b13">比较像a</label><br>
+                    <label for="c13"><input type="radio" name="13" id="c13">比较像b</label><br>
+                    <label for="d13"><input type="radio" name="13" id="d13">非常像b</label>
+                    <br><br>
+                    14.哪边更像你？<br>
+                    a.享受生活和工作中那些多样性和不确定带来的刺激感/不论是工作还是生活中，随机应变是你的强大技能/认为惯例是一种束缚，对于新体验自由开放<br>
+                    b.享受惯例带来的高效和确定性/不论是工作还是生活中，倾向于掌控时间，享受日程安排/能自如地应对惯例，主动建立流程和方法<br>
+                    <label for="a14"><input type="radio" name="14" id="a14">非常像a</label><br>
+                    <label for="b14"><input type="radio" name="14" id="b14">比较像a</label><br>
+                    <label for="c14"><input type="radio" name="14" id="c14">比较像b</label><br>
+                    <label for="d14"><input type="radio" name="14" id="d14">非常像b</label>
+                    <br><br>
+                    15.哪边更像你？<br>
+                    a.无论是工作还是旅行等，都会作出周全计划，并按步骤进行/对工作中的子任务也作出明确的定义/提前列出项目的大纲仅并尽量遵循<br>
+                    b.静观事态发展的变化，然后随机应变/相信不管从哪里开始，总会有对应的解决方案/提前梳理注意事项，在过程中逐步探客索合理的顺序<br>
+                    <label for="a15"><input type="radio" name="15" id="a15">非常像a</label><br>
+                    <label for="b15"><input type="radio" name="15" id="b15">比较像a</label><br>
+                    <label for="c15"><input type="radio" name="15" id="c15">比较像b</label><br>
+                    <label for="d15"><input type="radio" name="15" id="d15">非常像b</label>
+                    <br><br>
+                    16.哪边更像你？<br>
+                    a.社交场合，通常被他人介绍/他人眼中比较安静内敛，不会主动和人交流/只有那些和你有志趣相投的人，才能走近你<br>
+                    b.社交场合，主动介绍他人相互认识/他人眼中比较热情开放的，经常与人随口闲谈/喜欢结识各种各样的人<br>
+                    <label for="a16"><input type="radio" name="16" id="a16">非常像a</label><br>
+                    <label for="b16"><input type="radio" name="16" id="b16">比较像a</label><br>
+                    <label for="c16"><input type="radio" name="16" id="c16">比较像b</label><br>
+                    <label for="d16"><input type="radio" name="16" id="d16">非常像b</label>
+                    <br><br>
+                    17.哪边更像你？<br>
+                    a.比起听，更喜欢说/会主动和别人分享自己的想法，并觉得他们也会感兴趣/总想要和别人谈论各种事，所以易于被了解<br>
+                    b.比起说，更喜欢听/不会主动分享自己的想法，觉得他们对这些并不感兴趣/只愿意和极个别亲密的人分享自己的看法感受，所以很能被看透<br>
+                    <label for="a17"><input type="radio" name="17" id="a17">非常像a</label><br>
+                    <label for="b17"><input type="radio" name="17" id="b17">比较像a</label><br>
+                    <label for="c17"><input type="radio" name="17" id="c17">比较像b</label><br>
+                    <label for="d17"><input type="radio" name="17" id="d17">非常像b</label>
+                    <br><br>
+                    18.哪边更像你？<br>
+                    a.独处太久就会感到不安，更喜欢和人在一起/在大型聚会中经常有享受的感觉/擅长“一心多用”<br>
+                    b.如果没有足够的独处时候，会感到烦躁不安/在大型聚会中经常会觉得尴尬/专注在某一项工作上，直到它完成<br>
+                    <label for="a18"><input type="radio" name="18" id="a18">非常像a</label><br>
+                    <label for="b18"><input type="radio" name="18" id="b18">比较像a</label><br>
+                    <label for="c18"><input type="radio" name="18" id="c18">比较像b</label><br>
+                    <label for="d18"><input type="radio" name="18" id="d18">非常像b</label>
+                    <br><br>
+                    19.哪边更像你？<br>
+                    a.更喜欢电话或当面沟通/通过听人说话或音频能记得更牢/更多参与实践和交流更多独立的观察和思考<br>
+                    b.更喜欢书面沟通/通过自己阅读或动笔能记得更牢/更多独立的观察和思考<br>
+                    <label for="a19"><input type="radio" name="19" id="a19">非常像a</label><br>
+                    <label for="b19"><input type="radio" name="19" id="b19">比较像a</label><br>
+                    <label for="c19"><input type="radio" name="19" id="c19">比较像b</label><br>
+                    <label for="d19"><input type="radio" name="19" id="d19">非常像b</label>
+                    <br><br>
+                    20.哪边更像你？<br>
+                    a.避免成为焦点，对成就保持谦虚/寻求安静的环境，喜欢保持在幕后/经常是较晚知道发生了什么的人<br>
+                    b.喜欢成为焦点，被别人欣赏自己的成就/喜欢热闹的环境，对待自己的兴趣充满激情/经常是较早知道发生了什么的人<br>
+                    <label for="a20"><input type="radio" name="20" id="a20">非常像a</label><br>
+                    <label for="b20"><input type="radio" name="20" id="b20">比较像a</label><br>
+                    <label for="c20"><input type="radio" name="20" id="c20">比较像b</label><br>
+                    <label for="d20"><input type="radio" name="20" id="d20">非常像b</label>
+                    <br><br>
+                    Part four:裁决<br><br>
+                    1.哪边更像你？<br>
+                    a.用爱好、运动、活动和朋友来充实他们的生活，最讨厌的就是错过好玩的事情。/因为不愿意提前计划，所以当有太多令人兴奋的事情要做时，会变得过度紧张。/喜欢帮助别人，特别是以实际的、有形的方式。<br>
+                    b.往往对其他人感到好奇，并专注于探索人以及人的内在思想中更深层的含义。/容易对细节和重复感到厌烦，并非常重视个人的自由和自我表达，希望能够将灵感带到任何地方。/崇尚个性，并经常将追求幸福视为所有人的人生中最重要的事情。<br>
+                    <label for="a1"><input type="radio" name="1" id="a1">非常像a</label><br>
+                    <label for="b1"><input type="radio" name="1" id="b1">比较像a</label><br>
+                    <label for="c1"><input type="radio" name="1" id="c1">比较像b</label><br>
+                    <label for="d1"><input type="radio" name="1" id="d1">非常像b</label>
+                    <br><br>
+                    <input type="submit" class="five1">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="gehe"></div>
+    <!-- 底部 心理咨询 -->
+    <div class="bottom" id="four">
+        <!-- 专家二维码 -->
+        <div class="bottom_top">
+            <img src="../img/bottom_tb.png" width="60px">
+            <h2>扫描微信咨询</h2>
+            <div class="wechat">
+                <img src="../img/bottom_stj.jpg" width="100px">
+                <img src="../img/bottom_ff.jpg" width="100px">
+            </div>
+        </div>
+        <!-- 关于 -->
+        <div class="bottom_bottom">
+            <h4>联系地址：</h4>
+            <span>辽宁中医药大学1322寝</span>
+        </div>
+    </div>
+</body>
+
+</html>
